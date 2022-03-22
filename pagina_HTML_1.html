@@ -4,13 +4,87 @@
 <head>
     <meta charset="UFT-8">
     <title>Pagina1</title>
+    <style>
+        table,
+        td,
+        th {
+            border: solid 1px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+
 </head>
 
 <body>
+    <main>
+        <section>
+            <h1>Tabela 1</h1>
+            <table style="width: 400px;">
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <section>
+        <hr>
 
-    </section>
+        <section>
+            <h1>Tabela 2</h1>
+            <table style="width: 400px;">
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">4</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1>Tabela 3</h1>
+            <table style="width: 400px;">
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td rowspan="3">3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+        </section>
+    </main>
 
 </body>
 
