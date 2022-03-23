@@ -3,14 +3,61 @@
 
 <head>
     <meta charset="UFT-8">
-    <title>Pagina2</title>
+    <title>Layout Página</title>
+    <style>
+        table,
+        td,
+        th {
+            border: solid 1px;
+            border-collapse: collapse;
+            text-align: center;
+            width: 490px;
+        }
+
+        .topo {
+            background-color: #FFC300;
+        }
+
+        .menu {
+            background-color: #fab379;
+        }
+
+        ] .conteudo {
+            background-color: #FF5733;
+        }
+
+        .rodape {
+            background-color: #C70039;
+        }
+    </style>
 </head>
 
 <body>
-    <section>
+    <main>
+        <section>
+            <table>
 
-    </section>
+                <thead class="topo">
+                    <tr height="80">
+                        <th colspan="2">Topo</th>
+                    </tr>
+                </thead>
 
+                <tbody>
+                    <tr height="300">
+                        <td style="width: 25%;" class="menu">Menu</td>
+                        <td class="conteudo">Conteúdo</td>
+                    </tr>
+                </tbody>
+
+                <tfoot class="rodape">
+                    <tr height="50">
+                        <td colspan="2">Rodapé</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>
